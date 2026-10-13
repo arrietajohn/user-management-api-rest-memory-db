@@ -1,7 +1,7 @@
-package com.jcaa.udec.domain.services.mappers;
+package com.jcaa.udec.application.service.mapper;
 
 import com.jcaa.udec.domain.models.User;
-import com.jcaa.udec.domain.services.dto.response.UserResult;
+import com.jcaa.udec.application.service.dto.response.UserResult;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;

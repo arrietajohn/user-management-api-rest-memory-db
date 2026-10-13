@@ -1,11 +1,11 @@
 package com.jcaa.udec.entrypoint.rest.v1.mappers;
 
 import com.jcaa.udec.domain.enums.UserStatus;
-import com.jcaa.udec.domain.services.dto.commands.CreateUserCommand;
-import com.jcaa.udec.domain.services.dto.commands.DeleteUserCommand;
-import com.jcaa.udec.domain.services.dto.commands.UpdateUserCommand;
-import com.jcaa.udec.domain.services.dto.queries.GetUserQuery;
-import com.jcaa.udec.domain.services.dto.response.UserResult;
+import com.jcaa.udec.application.service.dto.commands.CreateUserCommand;
+import com.jcaa.udec.application.service.dto.commands.DeleteUserCommand;
+import com.jcaa.udec.application.service.dto.commands.UpdateUserCommand;
+import com.jcaa.udec.application.service.dto.queries.GetUserQuery;
+import com.jcaa.udec.application.service.dto.response.UserResult;
 import com.jcaa.udec.domain.valueobjects.EmailAddress;
 import com.jcaa.udec.domain.valueobjects.UserId;
 import com.jcaa.udec.domain.valueobjects.UserName;

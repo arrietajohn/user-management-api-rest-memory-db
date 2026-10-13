@@ -1,8 +1,8 @@
 package com.jcaa.udec.common.configuration;
 
 import com.jcaa.udec.domain.ports.out.UserRepositoryPort;
-import com.jcaa.udec.domain.services.UserService;
-import com.jcaa.udec.domain.services.mappers.UserDomainMapper;
+import com.jcaa.udec.application.service.UserService;
+import com.jcaa.udec.application.service.mapper.UserDomainMapper;
 import org.mapstruct.factory.Mappers;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

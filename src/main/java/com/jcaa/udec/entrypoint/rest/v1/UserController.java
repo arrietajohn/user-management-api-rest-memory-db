@@ -1,11 +1,11 @@
 package com.jcaa.udec.entrypoint.rest.v1;
 
-import com.jcaa.udec.domain.ports.in.CreateUserUseCase;
-import com.jcaa.udec.domain.ports.in.DeleteUserUseCase;
-import com.jcaa.udec.domain.ports.in.GetUserUseCase;
-import com.jcaa.udec.domain.ports.in.ListUsersUseCase;
-import com.jcaa.udec.domain.ports.in.UpdateUserUseCase;
-import com.jcaa.udec.domain.services.dto.response.UserResult;
+import com.jcaa.udec.application.port.in.CreateUserUseCase;
+import com.jcaa.udec.application.port.in.DeleteUserUseCase;
+import com.jcaa.udec.application.port.in.GetUserUseCase;
+import com.jcaa.udec.application.port.in.ListUsersUseCase;
+import com.jcaa.udec.application.port.in.UpdateUserUseCase;
+import com.jcaa.udec.application.service.dto.response.UserResult;
 import com.jcaa.udec.entrypoint.rest.v1.docs.UserApiDocumentation;
 import com.jcaa.udec.entrypoint.rest.v1.dto.request.CreateUserRequest;
 import com.jcaa.udec.entrypoint.rest.v1.dto.request.UpdateUserRequest;

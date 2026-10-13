@@ -1,4 +1,4 @@
-package com.jcaa.udec.domain.services.dto.commands;
+package com.jcaa.udec.application.service.dto.commands;
 
 import com.jcaa.udec.domain.exceptions.InvalidUserDataException;
 import com.jcaa.udec.domain.valueobjects.UserId;

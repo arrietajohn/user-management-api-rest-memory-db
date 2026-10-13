@@ -1,4 +1,4 @@
-package com.jcaa.udec.domain.services.dto.response;
+package com.jcaa.udec.application.service.dto.response;
 
 import com.jcaa.udec.domain.enums.UserStatus;
 

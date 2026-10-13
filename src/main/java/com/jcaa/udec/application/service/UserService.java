@@ -1,20 +1,20 @@
-package com.jcaa.udec.domain.services;
+package com.jcaa.udec.application.service;
 
 import com.jcaa.udec.domain.exceptions.DuplicateUserException;
 import com.jcaa.udec.domain.exceptions.UserNotFoundException;
 import com.jcaa.udec.domain.models.User;
-import com.jcaa.udec.domain.ports.in.CreateUserUseCase;
-import com.jcaa.udec.domain.ports.in.DeleteUserUseCase;
-import com.jcaa.udec.domain.ports.in.GetUserUseCase;
-import com.jcaa.udec.domain.ports.in.ListUsersUseCase;
-import com.jcaa.udec.domain.ports.in.UpdateUserUseCase;
+import com.jcaa.udec.application.port.in.CreateUserUseCase;
+import com.jcaa.udec.application.port.in.DeleteUserUseCase;
+import com.jcaa.udec.application.port.in.GetUserUseCase;
+import com.jcaa.udec.application.port.in.ListUsersUseCase;
+import com.jcaa.udec.application.port.in.UpdateUserUseCase;
 import com.jcaa.udec.domain.ports.out.UserRepositoryPort;
-import com.jcaa.udec.domain.services.dto.commands.CreateUserCommand;
-import com.jcaa.udec.domain.services.dto.commands.DeleteUserCommand;
-import com.jcaa.udec.domain.services.dto.commands.UpdateUserCommand;
-import com.jcaa.udec.domain.services.dto.queries.GetUserQuery;
-import com.jcaa.udec.domain.services.dto.response.UserResult;
-import com.jcaa.udec.domain.services.mappers.UserDomainMapper;
+import com.jcaa.udec.application.service.dto.commands.CreateUserCommand;
+import com.jcaa.udec.application.service.dto.commands.DeleteUserCommand;
+import com.jcaa.udec.application.service.dto.commands.UpdateUserCommand;
+import com.jcaa.udec.application.service.dto.queries.GetUserQuery;
+import com.jcaa.udec.application.service.dto.response.UserResult;
+import com.jcaa.udec.application.service.mapper.UserDomainMapper;
 import com.jcaa.udec.domain.valueobjects.EmailAddress;
 import com.jcaa.udec.domain.valueobjects.UserId;
 
